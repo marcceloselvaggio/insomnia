@@ -1,0 +1,68 @@
+_id: req_a7ac203208c141b38c932ea33c3d151e
+type: Request
+parentId: fld_3e1f62549ce34549acdcbe77c3918fcc
+modified: 1695322498574
+created: 1695244346503
+url: https://ecargohml-tvv.k8s.loginlogistica.com.br/graphql
+name: http://localhost:3000/graphql
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"operationName": null,
+    	"variables": null,
+    	"query": "query { logout { errors { Message } } } "
+    }
+parameters: []
+headers:
+  - name: Accept-Language
+    value: pt-BR,pt;q=0.9
+    id: pair_d11037fef88441539bb1be398d50fde5
+  - name: Cache-Control
+    value: no-cache
+    id: pair_9561f3b319e847bdb41a350b2dc17fbe
+  - name: Connection
+    value: keep-alive
+    id: pair_32447359723e45b4880cc96d79ad22a3
+  - name: Pragma
+    value: no-cache
+    id: pair_6ca80e5b97004292a2632fa0fe4bbc9d
+  - name: Sec-Fetch-Dest
+    value: empty
+    id: pair_51d22ab3206c4115aaccf20b0b82981d
+  - name: Sec-Fetch-Mode
+    value: cors
+    id: pair_26586440452a4b49b3662ebf2e8d283e
+  - name: Sec-Fetch-Site
+    value: same-origin
+    id: pair_fd177b963ec04a269ef6652169f7cfc0
+  - name: User-Agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/116.0.0.0 Safari/537.36
+    id: pair_f082ed23a04d4368bb1429565e457f04
+  - name: accept
+    value: "*/*"
+    id: pair_6dc948effee946d0a505f82799049108
+  - name: content-type
+    value: application/json
+    id: pair_f653b8f575d24239bfec30e7d60ac727
+  - name: sec-ch-ua
+    value: '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"'
+    id: pair_edb75b7085d1497696f45e3f136f1fc5
+  - name: sec-ch-ua-mobile
+    value: ?0
+    id: pair_bbf3e1e3e201470cb952e315dde67a0d
+  - name: sec-ch-ua-platform
+    value: '"Windows"'
+    id: pair_5515c0a6983e4b62bd468900d939be08
+authentication: {}
+metaSortKey: -1695322491270.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

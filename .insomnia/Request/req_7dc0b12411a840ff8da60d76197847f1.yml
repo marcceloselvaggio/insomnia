@@ -1,0 +1,31 @@
+_id: req_7dc0b12411a840ff8da60d76197847f1
+type: Request
+parentId: fld_3e1f62549ce34549acdcbe77c3918fcc
+modified: 1695322491302
+created: 1695273098651
+url: https://ecargohml-tvv.k8s.loginlogistica.com.br/accounts/login
+name: https://ecargohml-tvv.k8s.loginlogistica.com.br/login
+description: ""
+method: POST
+body:
+  mimeType: application/json-patch+json
+  text: |-
+    {
+      "usuario": "INGRID.TST",
+      "senha": "Sprigatito789!"
+    }
+parameters: []
+headers:
+  - name: accept
+    value: text/plain
+  - name: Content-Type
+    value: application/json-patch+json
+authentication: {}
+metaSortKey: -1695322491264
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

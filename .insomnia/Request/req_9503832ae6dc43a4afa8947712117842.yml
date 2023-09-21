@@ -1,0 +1,68 @@
+_id: req_9503832ae6dc43a4afa8947712117842
+type: Request
+parentId: fld_3e1f62549ce34549acdcbe77c3918fcc
+modified: 1695322495747
+created: 1695244414167
+url: https://ecargo.loginlogistica.com.br/graphql
+name: https://ecargo.loginlogistica.com.br/graphql
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: '{"operationName":null,"variables":{"usuario":"INGRID.TST","senha":"Sprigatito789!"},"query":"query
+    ($usuario: String, $senha: String) {\n  login(usuario: $usuario, senha:
+    $senha)
+    {\n    accessToken\n    refreshToken\n    logo\n    userId\n    __typename\n  }\n}\n"}'
+parameters: []
+headers:
+  - name: Accept-Encoding
+    value: gzip, deflate, br
+  - name: Accept-Language
+    value: pt-BR,pt;q=0.9
+  - name: Cache-Control
+    value: no-cache
+  - name: Connection
+    value: keep-alive
+  - name: Content-Length
+    value: "265"
+  - name: Cookie
+    value: TS012a2a8c=01714172aeb87fe2d30946f40e6aa8d1df568b66220b04aeaec9bb06774c7914d037997ebed890153f0e07e66d46e4dbc21a1c170d;
+      ASPSESSIONIDSAQSBSBB=OJJEMGABBMONOMLDMDKDDFIC;
+      TS012a2a8c=01714172aeb87fe2d30946f40e6aa8d1df568b66220b04aeaec9bb06774c7914d037997ebed890153f0e07e66d46e4dbc21a1c170d;
+      ASPSESSIONIDSAQSBSBB=OJJEMGABBMONOMLDMDKDDFIC
+  - name: Host
+    value: ecargo.loginlogistica.com.br
+  - name: Origin
+    value: https://ecargo.loginlogistica.com.br
+  - name: Pragma
+    value: no-cache
+  - name: Referer
+    value: https://ecargo.loginlogistica.com.br/
+  - name: Sec-Fetch-Dest
+    value: empty
+  - name: Sec-Fetch-Mode
+    value: cors
+  - name: Sec-Fetch-Site
+    value: same-origin
+  - name: User-Agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/116.0.0.0 Safari/537.36
+  - name: accept
+    value: "*/*"
+  - name: content-type
+    value: application/json
+  - name: sec-ch-ua
+    value: '"Chromium";v="116", "Not)A;Brand";v="24", "Google Chrome";v="116"'
+  - name: sec-ch-ua-mobile
+    value: ?0
+  - name: sec-ch-ua-platform
+    value: '"Windows"'
+authentication: {}
+metaSortKey: -1695322491314
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

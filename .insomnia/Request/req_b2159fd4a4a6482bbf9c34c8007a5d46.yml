@@ -1,0 +1,31 @@
+_id: req_b2159fd4a4a6482bbf9c34c8007a5d46
+type: Request
+parentId: fld_3e1f62549ce34549acdcbe77c3918fcc
+modified: 1695323030332
+created: 1695273201434
+url: http://localhost:5002/login
+name: http://localhost:5002/login
+description: ""
+method: POST
+body:
+  mimeType: application/json-patch+json
+  text: |-
+    {
+    	"usuario": "INGRID.TST",
+    	"senha": "Sprigatito789!"
+    }
+parameters: []
+headers:
+  - name: accept
+    value: text/plain
+  - name: Content-Type
+    value: application/json-patch+json
+authentication: {}
+metaSortKey: -1695322491464
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_c6ba2bc99b6745a6b598c49e6ac5bf2a
+type: Request
+parentId: fld_3e1f62549ce34549acdcbe77c3918fcc
+modified: 1695322492757
+created: 1695279420186
+url: http://localhost:5002/recovery?email=ecargo@signainfo.com.br
+name: accounts recovery
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1695322491364
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

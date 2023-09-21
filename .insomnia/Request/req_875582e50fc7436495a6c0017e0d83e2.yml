@@ -1,0 +1,65 @@
+_id: req_875582e50fc7436495a6c0017e0d83e2
+type: Request
+parentId: fld_3e1f62549ce34549acdcbe77c3918fcc
+modified: 1695322497826
+created: 1695244255789
+url: https://ecargohml-tvv.k8s.loginlogistica.com.br/graphql
+name: http://localhost:3000/graphql
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"operationName": null,
+    	"variables": {
+    		"usuario": "INGRID.TST",
+    		"senha": "Sprigatito789!"
+    	},
+    	"query": "query ($usuario: String, $senha: String) {\n  login(usuario: $usuario, senha: $senha) {\n    accessToken\n    refreshToken\n    logo\n    userId\n    __typename\n  }\n}\n"
+    }
+parameters: []
+headers:
+  - name: Accept-Language
+    value: pt-BR,pt;q=0.9
+    id: pair_c2a7050dbe984d309e92b8ab87bdceee
+  - name: Cache-Control
+    value: no-cache
+    id: pair_efca0289b6604c158ac35940b0272404
+  - name: Connection
+    value: keep-alive
+    id: pair_d5eb0d0c2c1d4a07bdf4ba8ff7d941c6
+  - name: Pragma
+    value: no-cache
+    id: pair_d4ff0999edab4de78c1eb84ef3421932
+  - name: Sec-Fetch-Dest
+    value: empty
+    id: pair_25188a4042924a40ac1683ba62f6fc79
+  - name: Sec-Fetch-Mode
+    value: cors
+    id: pair_44e751740113432e9287e023089dc777
+  - name: Sec-Fetch-Site
+    value: same-origin
+    id: pair_cfa388c79a1d42fc9a52d9d0ea81fbef
+  - name: User-Agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/116.0.0.0 Safari/537.36
+    id: pair_b5eb161a702948b5acecc12d489d81e4
+  - name: accept
+    value: "*/*"
+    id: pair_e2b16c8385f04536bc14528212c10449
+  - name: content-type
+    value: application/json
+    id: pair_72bc8f6e050f4d7b95d52f73100a16cc
+  - name: sec-ch-ua
+    value: ^\^Chromium^^;v=^\^116^^, ^\^Not
+    id: pair_ecfb40a99f2f41048ff5d814105e6d39
+authentication: {}
+metaSortKey: -1695322491276.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

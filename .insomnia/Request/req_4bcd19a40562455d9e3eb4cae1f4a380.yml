@@ -1,0 +1,66 @@
+_id: req_4bcd19a40562455d9e3eb4cae1f4a380
+type: Request
+parentId: fld_3e1f62549ce34549acdcbe77c3918fcc
+modified: 1695323943161
+created: 1695278332595
+url: https://ecargohml-tvv.k8s.loginlogistica.com.br/graphql
+name: graphql hml recovery
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"operationName": null,
+    	"variables": {
+    		"email": "ecargo.login@signainfo.com.br"
+    	},
+    	"query": "query ($email: String, $usuario: String) {\n  recovery(email: $email, usuario: $usuario) {\n    message\n needUserName \n   __typename\n  }\n}\n"
+    }
+parameters: []
+headers:
+  - name: Accept-Language
+    value: pt-BR,pt;q=0.9
+    id: pair_46739ee3e21d4689bcfcdb8c711a7dfb
+  - name: Cache-Control
+    value: no-cache
+    id: pair_4fc597fd0de54fa686db0b82c3a2ced4
+  - name: Connection
+    value: keep-alive
+    id: pair_f3da4705e72b4394b5e365456e53058c
+  - name: Pragma
+    value: no-cache
+    id: pair_97d0920884784c1d82eace964fa4602c
+  - name: Sec-Fetch-Dest
+    value: empty
+    id: pair_a628b2a9a29c432c973e7aafe3279568
+  - name: Sec-Fetch-Mode
+    value: cors
+    id: pair_84787dd9dd4145158c7bb3887a1def5b
+  - name: Sec-Fetch-Site
+    value: same-origin
+    id: pair_3d0ddc77487f4e8881765931e898db33
+  - name: User-Agent
+    value: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like
+      Gecko) Chrome/116.0.0.0 Safari/537.36
+    id: pair_3373a4a305e1472396992fcaada20cf5
+    disabled: true
+  - name: accept
+    value: "*/*"
+    id: pair_227d1b73c21a4d4c9a80d07bb8efd751
+  - name: content-type
+    value: application/json
+    id: pair_713b5db6250f40ae88999a0220e08ded
+  - name: sec-ch-ua
+    value: ^\^Chromium^^;v=^\^116^^, ^\^Not
+    id: pair_9a0d5fbd7096488d9949dc24eb9de6fc
+    disabled: true
+authentication: {}
+metaSortKey: -1695322491273.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
